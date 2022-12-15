@@ -1,0 +1,63 @@
+section {
+  padding: 10px;
+  margin: 15px;
+}
+
+.input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.bigger-img {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}
+
+.bigger-img img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#close {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  /* make the close button more buttiful */
+  font-size: 2rem;
+  color: rgb(154, 202, 50);
+  cursor: pointer;
+}
+
+#left {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  /* make the left button with a gray background and gradient and a white arrow */
+  font-size: 5rem;
+  color: rgb(200, 228, 230);
+  cursor: pointer;
+}
+
+#right {
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  /* make the right button with a gray background and gradient and a white arrow */
+  font-size: 5rem;
+  color: rgb(200, 228, 230);
+  cursor: pointer;
+}
